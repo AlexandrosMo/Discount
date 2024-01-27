@@ -5,7 +5,7 @@ class Discount:
         self.price = price
     
     def calculate_discount(self):
-        discount_amount = 0.50 if self.price >= 2.00 else 0.25  # Εκπτώσεις ανάλογα με την τιμή
+        discount_amount = 0.50 if self.price >= 2.00 else 0.25  
         return discount_amount
     
     def calculate_final_price(self):
